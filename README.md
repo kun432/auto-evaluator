@@ -1,3 +1,21 @@
+https://github.com/rlancemartin/auto-evaluator の自分用forkです。
+
+- devcontainer化。pythonパッケージも自動でインストール。
+- streamlitの設定を追加。
+
+あたりをちょっといじっただけです。
+
+予め以下の設定が必要です。
+
+- VSCode devcontainerをインストールしておくこと
+- VSCodeを動かすローカルマシン側で以下の設定を行っておくこと
+    - .gitconfig
+        - ローカルの~/.gitconfigをdevcontainerからマウントして、devcontainer内でもgitコマンドを叩けるようにしている
+    - .langchainenv
+        - OpenAIのAPIキーなどをレポジトリに含めずに、ローカルの~/.langchainenvというファイルをdevcontainerからマウントして、.envとして読み込めるようにしている
+
+-----
+
 # `Auto-evaluator` :brain: :memo:
 
 > **Note**
