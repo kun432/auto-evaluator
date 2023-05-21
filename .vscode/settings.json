@@ -1,0 +1,5 @@
+{
+    "aws.telemetry": false,
+    "terminal.integrated.shellIntegration.history": 999999,
+    "files.insertFinalNewline": true
+}
